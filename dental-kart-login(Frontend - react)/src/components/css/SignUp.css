@@ -1,0 +1,148 @@
+.container{
+    height: 95vh;
+    background-image: linear-gradient(
+        to right bottom, 
+        #7ed56fb3, 
+        #28b485b3), 
+        url(../../../public/images/hero.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+.login-box{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.login-with span{
+    height: 100%;
+    vertical-align: middle;
+}
+
+.login-with span img{
+    height: 20px;
+    margin-right: 10px;
+}
+
+
+.heading-primary{
+    color: #fff;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
+
+.heading-primary-main{
+    display: block;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 35px;
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+
+.heading-primary-sub{
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 17.4px;
+    animation: moveInRight 1s ease-out;
+}
+
+.login{
+    width: 50vh;
+    height: 70vh;
+    background-color: #fff;
+    border-radius: 1.5rem;
+    transform: translateX(40%);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.login-content{
+    text-align: center;
+    padding: 3rem;
+    padding-top: 1.5rem;
+}
+
+.login-content h1{
+    color: black;
+}
+
+.login-input{
+    width: 100%;
+    display: block;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color:black
+}
+
+.login-content a{
+    width: 100%;
+    display: block;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+.login-content button{
+    width: 100%;
+    padding: 10px 18px;
+    color: #fff;
+    background-color: black;
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.login-content button:hover{
+    background-color: #fff;
+    color: black;
+    transform: translateY(-3px);
+}
+
+.login-content button:active{
+    transform: translateY(-1px);
+}
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    80% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    80% {
+        transform: translateX(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}

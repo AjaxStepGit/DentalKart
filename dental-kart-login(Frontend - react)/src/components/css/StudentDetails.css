@@ -1,0 +1,68 @@
+.bg{
+    height: 30vh;
+    background-image: linear-gradient(
+        to right bottom, 
+        #7ed56fb3, 
+        #28b485b3), 
+        url(../../../public/images/hero.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+.text-box{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.heading-primary{
+    color: #fff;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.heading-primary-main{
+    display: block;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 35px;
+}
+
+.heading-primary-sub{
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 17.4px;
+}
+
+.content{
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+
+.content-x {
+    position: relative;
+    height: 10vh ;
+    margin-top: 10px;
+  }
+  
+  .div1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .div2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  

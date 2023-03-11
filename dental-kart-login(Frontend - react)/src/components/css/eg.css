@@ -1,0 +1,16 @@
+.content {
+    position: relative;
+  }
+  
+  .div1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .div2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  
